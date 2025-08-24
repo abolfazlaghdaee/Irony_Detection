@@ -1,7 +1,8 @@
-# Irony_Detection
+# Irony Detection
 
 This project is dedicated to irony detection in Persian tweets, utilizing advanced Natural Language Processing (NLP) techniques. The dataset for this research was gathered from X (formerly Twitter) and uniquely annotated based on the reactions to each tweet. This approach allows the project to delve into how audience reactions can serve as implicit signals for identifying ironic statements within the often nuanced and context-dependent nature of social media communication. The goal is to develop robust models capable of distinguishing ironic from non-ironic text, which is crucial for improving downstream NLP tasks like sentiment analysis and opinion mining, especially in a morphologically rich language like Persian.
 
+![](IMG_0192.JPG)
 
 ### Methodology Highlights
 To capture the semantic and contextual nuances of Persian tweets for irony detection, we utilize three distinct embedding techniques:
@@ -39,7 +40,7 @@ Leveraging the recent advancements in self-attention mechanisms, we fine-tuned l
 |-------------------|:--------:|:--------:|:---------:|
 | RNN | 0.62 | 0.60| 0.59 | 
 |  LSTM             | 0.69     | 0.68     | 0.63      |
-| GRU    | 0.81     | 0.80     | 0.82     | 0.78     | 
+| GRU    | 0.72     | 0.80     | 0.82     | 0.78     | 
 | ParsBERT          | 0.802793	     | 0.802674| 0.802868      | 
 | XLM-R             | 0.800409    | 0.800657    |0.802546      | 
 
